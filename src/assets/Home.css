@@ -1,0 +1,32 @@
+.product-card {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    gap: 16px; /* Añade espacio entre la imagen y el contenido */
+  }
+  
+  .product-image {
+    max-width: 150px; /* Ajusta el tamaño de la imagen */
+    max-height: 150px; /* Ajusta el tamaño de la imagen */
+    width: auto; /* Mantiene las proporciones de la imagen */
+    height: auto; /* Asegura que la altura se ajuste proporcionalmente */
+    object-fit: contain; /* Asegura que la imagen no se deforme */
+  }
+  
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el texto verticalmente */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .header h1 {
+    text-align: center;
+  }

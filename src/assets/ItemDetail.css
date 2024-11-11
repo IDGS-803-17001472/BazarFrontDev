@@ -1,0 +1,46 @@
+.product-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-container {
+    width: 100%;
+    max-height: 50vh; /* Limita la altura al 50% de la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .detail-image {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain; /* Escala la imagen sin recortarla */
+  }
+
+
+
+  .detail-container .image-gallery {
+    max-width: 500px; /* Ajusta según lo que necesites */
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+  
+  .detail-container .image-gallery .detail-image {
+    object-fit: contain; /* Evita que se deforme */
+    max-height: 300px; /* Ajusta la altura según sea necesario */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .header h1 {
+    text-align: center;
+  }
